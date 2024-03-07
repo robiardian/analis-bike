@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 hour_df = pd.read_csv("hour_cleaned.csv")
-day_df = pd.read_csv("day_cleaned.csv")
+day_df = pd.read_csv("https://github.com/robiardian/analis-bike/blob/master/dashboard/day_cleaned.csv")
 # Streamlit App# Define function for plotting seasonal usage
 def plot_seasonal_usage(day_df):
 
